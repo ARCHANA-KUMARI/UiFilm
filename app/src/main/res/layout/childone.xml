@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#380B61">
+  <com.robosoft.archanakumari.uifilm.RoundedImageVIew
+        android:id="@+id/imag26"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/imagewithnotwesix"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_toRightOf="@id/imag26"
+        android:text="BEGUN"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tex2"
+        android:text="3 Films"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+
+        />
+
+
+</RelativeLayout>
